@@ -14,3 +14,9 @@ elif current_time.hour < 18:
     print("Good afternoon")
 else:
     print("Good evening")
+
+
+# What is today's date?
+
+today = datetime.date.today()
+print("Today's date:", today)
